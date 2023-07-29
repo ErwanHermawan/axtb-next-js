@@ -1,6 +1,6 @@
 // --- components
 import Default from "@template/Default";
-import HeroBanner from "@organism/HeroBanner";
+import SectionFlag from "@organism/SectionFlag";
 
 // --- datas
 import BannerData from "./BannerData";
@@ -9,7 +9,7 @@ const About = () => {
 	return (
 		<>
 			<Default page="about">
-				<HeroBanner page="about" data={BannerData} />
+				<SectionFlag page="about" data={BannerData} />
 			</Default>
 		</>
 	);
